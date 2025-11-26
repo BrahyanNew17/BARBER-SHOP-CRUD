@@ -1,0 +1,72 @@
+.background {
+    background-color: #968e8e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    }
+
+    .insercion {
+    background-color: #8e94965d;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    height: 80vh;
+    }
+    .consultas {
+    background-color: #968e8e5d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    }
+
+.eliminar {
+    background-color: #968e8e5d;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    height: 80vh;
+    }
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+button {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* Contenedor principal para alinear los bloques en fila */
+.contenedor-principal {
+    display: flex;
+    justify-content: space-between; /* Espacio entre los bloques */
+    align-items: flex-start; /* Alinea al inicio verticalmente */
+    gap: 20px; /* Espacio opcional entre columnas */
+    padding: 20px;
+}
+
+/* Estilo general para los bloques */
+.insercion, .consultas, .eliminar {
+    border: 1px solid #ccc;
+    padding: 15px;
+    width: 30%; /* Cada bloque ocupa ~1/3 del contenedor */
+    box-sizing: border-box; /* Incluye padding en el ancho */
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Centrar botones dentro de cada bloque */
+.insercion button, .consultas button, .eliminar button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.h1{
+    text-align: center;
+}
