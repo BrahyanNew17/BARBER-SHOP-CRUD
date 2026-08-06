@@ -1,0 +1,6 @@
+Administrador: 
+Correo: brahyanestivenleal07@gmail.com
+Contraseña: admin
+Cliente:
+Correo: juan@gmail.com
+Contraseña: 777777
